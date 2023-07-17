@@ -1,0 +1,21 @@
+body{
+    margin: 50px;
+}
+.container, .inner, .circle{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    background-color: aquamarine;
+    border: 2px solid brown;
+    margin-top: 50px;
+}
+.inner{
+    border: 2px solid tomato;
+    background-color:antiquewhite;
+    /* transform: scale(.50)  rotate(45deg); */
+}
+.inner:hover{
+    transform: scale(.40) rotate(45deg);
+    transition-duration: 1s;
+}
